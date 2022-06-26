@@ -16,6 +16,7 @@ call plug#begin('~/.config/nvim/vim-plug')
     Plug 'shaunsingh/nord.nvim'
     Plug 'andweeb/presence.nvim'
     Plug 'KabbAmine/vCoolor.vim'
+    Plug 'xiyaowong/nvim-transparent'
 call plug#end()
 
 
@@ -55,6 +56,9 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 "ColorScheme
 colorscheme nord
+
+"Transparent
+let g:transparent_enabled = v:true
 
 "Airline-theme
 let g:airline_theme='base16'
