@@ -13,7 +13,7 @@ call plug#begin('~/.config/nvim/vim-plug')
     Plug 'romgrk/barbar.nvim'
     Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
     Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
-    Plug 'shaunsingh/nord.nvim'
+    Plug 'morhetz/gruvbox'
     Plug 'andweeb/presence.nvim'
     Plug 'KabbAmine/vCoolor.vim'
     Plug 'xiyaowong/nvim-transparent'
@@ -55,7 +55,7 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 "##NeoVim Plugins Configs##"
 
 "ColorScheme
-colorscheme nord
+colorscheme gruvbox
 
 "Transparent
 let g:transparent_enabled = v:true
