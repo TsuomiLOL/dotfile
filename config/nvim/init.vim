@@ -21,7 +21,7 @@ call plug#end()
 
 
 "começo
-":CocInstall coc-tsserver coc-json coc-html coc-css coc-python coc-jedi coc-emmet coc-rust-analyzer
+":CocInstall coc-tsserver coc-json coc-html coc-css coc-python coc-jedi coc-emmet coc-rust-analyzer coc-pairs
 "curl -sl install-node.vercel.app/lts | bash
 
 
@@ -40,6 +40,7 @@ set nowrap
 set smartcase
 set noswapfile
 set nobackup
+ set autoindent
 set undodir=~/.nvim/undodir
 set undofile
 set colorcolumn=190
