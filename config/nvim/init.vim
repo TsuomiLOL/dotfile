@@ -4,7 +4,6 @@ call plug#begin('~/.config/nvim/vim-plug')
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
-    Plug 'glepnir/dashboard-nvim'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'ryanoasis/vim-devicons'
     Plug 'vim-airline/vim-airline'
