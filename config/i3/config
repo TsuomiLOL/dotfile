@@ -25,7 +25,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec_always --no-startup-id $HOME/polybar-collection/launch.sh
 exec "xrandr --output DisplayPort-0 --scale 1.4"
 exec "picom"
-exec "xwallpaper --zoom Downloads/wallpaper/wallhaven-1369v3.jpg"
+exec "xwallpaper --zoom Downloads/wallpaper/backiee-131682-landscape.jpg"
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
