@@ -12,10 +12,9 @@ call plug#begin('~/.config/nvim/vim-plug')
     Plug 'romgrk/barbar.nvim'
     Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
     Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
-    Plug 'morhetz/gruvbox'
     Plug 'andweeb/presence.nvim'
     Plug 'KabbAmine/vCoolor.vim'
-    Plug 'xiyaowong/nvim-transparent'
+    Plug 'Mofiqul/dracula.nvim'
 call plug#end()
 
 
@@ -55,41 +54,13 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 "##NeoVim Plugins Configs##"
 
 "ColorScheme
-colorscheme gruvbox
+colorscheme dracula
 
 "Transparent
 let g:transparent_enabled = v:true
 
 "Airline-theme
 let g:airline_theme='base16'
-
-"Dashboard
-
-"Default value is between ''
-let g:dashboard_default_executive ='telescope'
-
-" Custom header (logo)
-let g:dashboard_custom_header = [
-\'',
-\'⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⢀⣀⣠⣤⣤⣴⣦⣤⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ',
-\'⠀⠀⠀⠀ ⠀⠀⢀⣤⣾⣿⣿⣿⣿⠿⠿⠿⠿⣿⣿⣿⣿⣶⣤⡀⠀⠀⠀⠀⠀⠀ ',
-\'⠀⠀⠀ ⠀⣠⣾⣿⣿⡿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⢿⣿⣿⣶⡀⠀⠀⠀⠀ ',
-\'⠀⠀ ⠀⣴⣿⣿⠟⠁⠀⠀⠀⣶⣶⣶⣶⡆⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣦⠀⠀⠀ ',
-\'⠀ ⠀⣼⣿⣿⠋⠀⠀⠀⠀⠀⠛⠛⢻⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣧⠀⠀ ',
-\' ⠀⢸⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⡇⠀ ',
-\' ⠀⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠀ ',
-\' ⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⡟⢹⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⣹⣿⣿⠀ ',
-\'⠀ ⣿⣿⣷⠀⠀⠀⠀⠀⠀⣰⣿⣿⠏⠀⠀⢻⣿⣿⡄⠀⠀⠀⠀⠀⠀⣿⣿⡿⠀ ',
-\'⠀ ⢸⣿⣿⡆⠀⠀⠀⠀⣴⣿⡿⠃⠀⠀⠀⠈⢿⣿⣷⣤⣤⡆⠀⠀⣰⣿⣿⠇⠀ ',
-\'⠀ ⠀⢻⣿⣿⣄⠀⠀⠾⠿⠿⠁⠀⠀⠀⠀⠀⠘⣿⣿⡿⠿⠛⠀⣰⣿⣿⡟⠀⠀ ',
-\'⠀⠀ ⠀⠻⣿⣿⣧⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⠏⠀⠀⠀ ',
-\'⠀⠀⠀ ⠀⠈⠻⣿⣿⣷⣤⣄⡀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⠟⠁⠀⠀⠀⠀ ',
-\'⠀⠀⠀⠀ ⠀⠀⠈⠛⠿⣿⣿⣿⣿⣿⣶⣶⣿⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀ ',
-\'⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠉⠉⠛⠛⠛⠛⠛⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ',
-\'*------------------------------*',
-\'|         RUN FREEMAN!         |',
-\'*------------------------------*',
-\]
 
 "Telescope
 
