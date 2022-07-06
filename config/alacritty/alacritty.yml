@@ -1,2 +1,6 @@
 window:
-   opacity: 0.8
+   opacity: 1
+
+colors:
+   primary:
+     background: "#1E1E2E"
