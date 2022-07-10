@@ -19,7 +19,7 @@ call plug#end()
 
 
 "começo
-":CocInstall coc-tsserver coc-json coc-html coc-css coc-python coc-jedi coc-emmet coc-rust-analyzer coc-pairs
+":CocInstall coc-tsserver coc-json coc-html coc-css coc-python coc-jedi coc-emmet coc-rust-analyzer coc-pairs coc-phpls
 "curl -sl install-node.vercel.app/lts | bash
 
 
