@@ -4,3 +4,9 @@ window:
 colors:
    primary:
      background: "#1E1E2E"
+
+Font:
+    # Normal (roman):
+    normal:
+        family: JetBrains Mono
+        style: Regular
