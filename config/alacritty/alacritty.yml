@@ -8,5 +8,5 @@ colors:
 Font:
     # Normal (roman):
     normal:
-        family: JetBrains Mono
+        family: JetBrainsMono Nerd Font
         style: Regular
