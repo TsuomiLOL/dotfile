@@ -50,7 +50,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 
 
-bindsym Mod1+b exec "rofi -show {run,drun,window} -theme $HOME/rofi-collection/dracula/dracula.rasi"
+bindsym Mod1+b exec "rofi -show {run,drun,window} -theme $HOME/rofi-collection/material/material.rasi"
 bindsym Print exec flameshot gui
 
 
