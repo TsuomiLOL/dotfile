@@ -34,7 +34,6 @@ exec "picom"
 exec_always "xwallpaper --zoom Downloads/wallpaper/00008.png"
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
-exec "xset dpms force off"
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
