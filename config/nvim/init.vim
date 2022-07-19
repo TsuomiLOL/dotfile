@@ -14,7 +14,7 @@ call plug#begin('~/.config/nvim/vim-plug')
     Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
     Plug 'andweeb/presence.nvim'
     Plug 'KabbAmine/vCoolor.vim'
-    Plug 'Mofiqul/dracula.nvim'
+    Plug 'morhetz/gruvbox'
 call plug#end()
 
 
@@ -38,7 +38,7 @@ set nowrap
 set smartcase
 set noswapfile
 set nobackup
- set autoindent
+set autoindent
 set undodir=~/.nvim/undodir
 set undofile
 set colorcolumn=190
@@ -54,7 +54,8 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 "##NeoVim Plugins Configs##"
 
 "ColorScheme
-colorscheme dracula
+colorscheme gruvbox
+set bg=dark
 
 "Transparent
 let g:transparent_enabled = v:true
