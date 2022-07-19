@@ -352,7 +352,7 @@ exec --no-startup-id dbus-launch dunst --config ~/.config/dunst/dunstrc
 exec_always "xrandr --output DisplayPort-0 --scale 1.5"
 exec_always "picom"
 #exec_always "xfce4-panel"
-exec_always "xwallpaper --zoom Downloads/wallpaper/00045.png"
+exec_always "xwallpaper --zoom Downloads/wallpaper/ilha.jpg"
 #exec_always --no-startup-id polybar
 
 # alternative if you installed aside with XFCE4:
