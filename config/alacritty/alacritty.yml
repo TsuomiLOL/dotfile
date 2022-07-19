@@ -3,7 +3,7 @@ window:
 
 colors:
    primary:
-     background: "#1E1E2E"
+     background: "#272727"
 
 Font:
     # Normal (roman):
