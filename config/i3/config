@@ -29,7 +29,7 @@ font pango:monospace 8
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 #exec_always --no-startup-id $HOME/polybar-collection/launch.sh
-exec "xrandr --output DisplayPort-0 --scale 1.4"
+exec "xrandr --output DisplayPort-0 --scale 1.5"
 exec "picom"
 exec_always "xfce4-panel"
 exec_always "xwallpaper --zoom Downloads/wallpaper/00045.png"
