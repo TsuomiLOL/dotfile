@@ -121,8 +121,6 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to update i3)
 bindsym $mod+Shift+r restart
 
-# keybinding in fancy rofi (automated):
-bindsym F1 exec ~/.config/i3/scripts/keyhint-2
 # alternative
 # keybinding list in editor:
 # bindsym $mod+F1 exec xed ~/.config/i3/keybindings
@@ -191,7 +189,7 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+p exec /usr/local/bin/switch-audio-port
 
 ## App shortcuts
-bindsym Mod1+b exec "rofi -show {run,drun,window} -theme $HOME/rofi-collection/material/material.rasi"
+bindsym Mod1+b exec "rofi -show {run,drun,window} -theme $HOME/rofi-collection/gruvbox/gruvbox.rasi"
 bindsym Print exec flameshot gui
 
 # Power Profiles menu switcher (rofi)
@@ -262,8 +260,7 @@ exec_always "xrandr --output DisplayPort-0 --scale 1.5"
 exec_always "picom"
 #exec_always "xfce4-panel"
 exec_always "polybar"
-exec_always "xwallpaper --zoom Downloads/wallpaper/ilha.jpg"
-#exec_always --no-startup-id polybar
+exec_always "xwallpaper --zoom Downloads/wallpaper/gruvbox.png"
 
 # alternative if you installed aside with XFCE4:
 # exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
